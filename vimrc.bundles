@@ -91,6 +91,7 @@ Plug 'rodjek/vim-puppet'
 " usage outside of git repos
 Plug 'tweekmonster/wstrip.vim', { 'branch': 'diff-error' }
 Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 if v:version >= 800 || has('nvim')
   Plug 'w0rp/ale'
