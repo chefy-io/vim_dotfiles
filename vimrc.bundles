@@ -92,6 +92,7 @@ Plug 'rodjek/vim-puppet'
 Plug 'tweekmonster/wstrip.vim', { 'branch': 'diff-error' }
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'posva/vim-vue'
 
 if v:version >= 800 || has('nvim')
   Plug 'w0rp/ale'
