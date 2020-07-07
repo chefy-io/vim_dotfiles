@@ -16,4 +16,7 @@ for name in config/nvim/init.vim; do
   ln -s "${dotfiles_dir}/${name}" "${HOME}/.${name}"
 done
 
+rm -rf "${HOME}/.tmux.conf"
+ln -s "${dotfiles_dir}/tmux.conf" "${HOME}/.tmux.conf"
+
 vim +PlugInstall +PlugClean! +qall
